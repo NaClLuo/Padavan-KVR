@@ -1320,7 +1320,7 @@ Setting_factorydefault_hint2=确认继续?
 Setting_factorydefault_iphint=ZVMODELVZ
 SET_ok_desc=请稍候，正在上传设置，大约需要 30 秒时间!
 SET_fail_desc=设置或上传配置文件失败，可以在系统日志中查看详细信息。请检查文件后再试。
-RHELP_desc4=路由规则中的目的网络 (例如192.168.0.0) 或主机 (例如 192.168.123.11)
+RHELP_desc4=路由规则中的目的网络 (例如192.168.0.0) 或主机 (例如 192.168.68.11)
 RHELP_desc5=网络号和子网号的位数，例如:如果网络掩码是 255.255.255.0，那么它的网络掩码位数是 24。如果目的地址是主机，那么它的网络掩码位数必须是 32。
 RHELP_desc6=网关的 IP 地址，数据包需要经过它进行路由转发。指定的网关必须是可达的，即必须事先设置一个到达该地址的静态路由。
 RHELP_desc7=跃点是一个用于表示网络距离的值
@@ -1874,7 +1874,7 @@ HSDPAConfig_username_itemdesc=请输入你的用户名。
 HSDPAConfig_password_itemdesc=请输入你的密码。
 HSDPAConfig_usbadaptor_itemdesc=请选择你的 USB 适配器
 HSDPAConfig_safely_remove=安全移除 USB 网卡
-LANHostConfig_IPRouters_itemdesc=ZVMODELVZ 的内网 IP 地址，默认值是 192.168.2.1
+LANHostConfig_IPRouters_itemdesc=ZVMODELVZ 的内网 IP 地址，默认值是 192.168.68.1
 HSDPAConfig_hsdpa_mode_itemdesc=选择你的 USB 网卡类型，若要移除 USB 网卡，请打开<a href='/index.asp' target=\'_blank\'>网络地图</a>并且点击 [移除]。
 Not_authpage_login_again=若要重新登录，请先关闭当前窗口。
 GO_HSDPA_SETTING=USB 网卡设置

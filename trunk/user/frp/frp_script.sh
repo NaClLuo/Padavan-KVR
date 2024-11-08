@@ -21,7 +21,7 @@ token = 12345
 [web]
 remote_port = 6000
 type = http
-local_ip = 192.168.2.1
+local_ip = 192.168.68.1
 local_port = 80
 subdomain = test
 #host_header_rewrite = 实际你内网访问的域名，可以供公网的域名不一致，如果一致可以不写
