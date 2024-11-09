@@ -4553,6 +4553,9 @@ struct ej_handler ej_handlers[] =
 	{ "modify_sharedfolder", ej_modify_sharedfolder},
 	{ "set_share_mode", ej_set_share_mode},
 #endif
+#if defined (APP_ZEROTIER)
+	{ "zerotier_status", zerotier_status_hook},
+#endif
 #if defined (APP_SCUT)
 	{ "scutclient_action", scutclient_action_hook},
 	{ "scutclient_status", scutclient_status_hook},
